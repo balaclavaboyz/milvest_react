@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 const ButtonCatalogo = () => {
   return (
     <Button variant="primary">
-      <a href="https://milvest.vesti.mobi">Catálogo</a>
+      <a href="https://milvest.vesti.mobi" style={{color:'white',textDecoration: 'inherit' }}>Catálogo</a>
     </Button>
   );
 };

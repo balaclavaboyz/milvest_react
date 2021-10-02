@@ -1,13 +1,15 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import ButtonCatalogo from "./ButtonCatalogo";
+import "../assets/my.css";
 
 const Titulo = () => {
   return (
-    <>
-      <h1>Moda Feminina Atacado Bom Retiro</h1>
-      <h2>Criamos, Produzimos e Vendemos em Atacado</h2>
-      <ButtonCatalogo />
-    </>
+      <div className="text-center">
+        <h1>Moda Feminina Atacado Bom Retiro</h1>
+        <h2>Criamos, Produzimos e Vendemos em Atacado</h2>
+        <ButtonCatalogo />
+      </div>
   );
 };
 
