@@ -9,7 +9,7 @@ import './assets/my.css'
 const Home=()=>{
     return(
         <Container>
-        <Row className="center">
+        <Row className="center" xs={1} md={2}>
           <Col >
             <Titulo />
           </Col>
@@ -17,13 +17,15 @@ const Home=()=>{
             <Galeria1 />
           </Col>
         </Row>
-        <Row className="center">
-          <Col>
-            <Galeria2 />
-          </Col>
-          <Col>
+        <Row className="center" xs={1} md={2} >
+          
+        <Col md={{order:'last'}}>
             <SubTitulo />
           </Col>
+          <Col md={{order:'first'}} >
+            <Galeria2 />
+          </Col>
+          
         </Row>
       </Container>
     )

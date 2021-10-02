@@ -18,7 +18,8 @@ const Galeria = () => {
   return (
     <>
       <Carousel>
-        {Object.entries(galeria1).map((t, k) =>
+        {
+        Object.entries(galeria1).map((t, k) =>
           Object.entries(t[1]).map((t, k) => (
             <Carousel.Item key={k}>
               <Img
@@ -28,7 +29,8 @@ const Galeria = () => {
               />
             </Carousel.Item>
           ))
-        )}
+        )
+        }
       </Carousel>
     </>
   );
