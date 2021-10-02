@@ -11,7 +11,7 @@ function importAll(r) {
 }
 
 const galeria2 = importAll(
-  require.context("../assets/galeria_2", false, /\.(png|jpe?g|svg)$/)
+  require.context("../assets/galeria_2", false, /\.(png|jpe?g|svg|webp)$/)
 );
 
 const Galeria2 = () => {
