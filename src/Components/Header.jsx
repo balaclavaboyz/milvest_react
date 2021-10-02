@@ -24,7 +24,7 @@ const Header = () => {
         content="Milvest, bomretiro, bom retiro, atacado, aimores, vestido, vestidos, blusa, calca, calça, saia, milvest, instagram, whatsapp, outono, inverno, 2021, catálogo, catalogo, moda, qualidade, roupa, rua aimores atacado, rua aimores, vestido rua aimores, vestido atacado"
       />
       <meta name="author" content="Peter Kim" />
-      <link rel="shortcut icon" href={logo} />
+      <link rel="icon" href={logo} type="image/icon type"/>
     </head>
   );
 };
