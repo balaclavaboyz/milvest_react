@@ -1,7 +1,7 @@
 import React from "react";
 import Img from "react-cool-img";
 import { Link } from "react-router-dom";
-
+import logo from "../assets/logo.svg"
 import { Nav, Navbar, Container } from "react-bootstrap";
 
 const Menu = () => {
@@ -10,7 +10,7 @@ const Menu = () => {
       <Container>
         
         <Link to="/" style={{ color: 'inherit', textDecoration: 'inherit' }}>
-          <Img src="./assets/logo.svg" alt="logo_milvest" />
+          <Img src={logo} alt="logo_milvest" />
         </Link>
         {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
