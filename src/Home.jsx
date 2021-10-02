@@ -4,7 +4,6 @@ import Titulo from './Components/Titulo'
 import Galeria1 from './Components/Galeria1'
 import Galeria2 from './Components/Galeria2'
 import SubTitulo from './Components/SubTitulo'
-import Footer from './Components/Footer'
 import './assets/my.css'
 
 const Home=()=>{

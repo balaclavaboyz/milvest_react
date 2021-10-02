@@ -1,5 +1,5 @@
 import Menu from "./Components/Menu";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import { Switch, Route } from "react-router-dom";
@@ -7,15 +7,6 @@ import Home from "./Home";
 import Politica from "./Politica";
 import Faq from "./Components/Faq";
 import "./assets/my.css"
-{
-  /* <img src={galeria1['ex_23-064679.jpg'].default} alt="asd" /> */
-}
-
-// Object.entries(galeria1).map((t,k)=>{
-//   Object.entries(t[1]).map((t,k)=>{
-//     console.log(t[1])
-//   })
-// })
 
 const App = () => {
   return (

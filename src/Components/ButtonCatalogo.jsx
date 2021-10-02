@@ -3,9 +3,9 @@ import Button from "react-bootstrap/Button";
 
 const ButtonCatalogo = () => {
   return (
-    <Button variant="primary">
-      <a href="https://milvest.vesti.mobi" style={{color:'white',textDecoration: 'inherit' }}>Catálogo</a>
-    </Button>
+    <>
+    <Button size="lg" variant="outline-secondary" href="https://milvest.vesti.mobi">Catálogo</Button>{' '}
+    </>
   );
 };
 

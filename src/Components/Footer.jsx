@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import insta from "../assets/flutuante/instagram.svg";
 import whats from "../assets/flutuante/whatsapp.svg";
 import Img from "react-cool-img";
@@ -20,9 +19,7 @@ const Footer = () => {
   return (
     <>
       <div className="text-center">
-        <Link to="/politica">
-          <a>Política de Privacidade</a>
-        </Link>
+          <a href="/politica">Política de Privacidade</a>
         <p>
           <i>Criamos , Produzimos e Vendemos em Atacado</i> | R. Aimorés, 101 -
           Bom Retiro, São Paulo - SP, 01122-011 | milvest@milvest.com.br
