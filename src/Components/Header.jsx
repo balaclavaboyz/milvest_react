@@ -1,12 +1,13 @@
 import React from "react";
 import ReactGA from 'react-ga';
 import logo from '../assets/logo.svg'
+import {Helmet} from "react-helmet";
 ReactGA.initialize('UA-170028058-4');
 
 const Header = () => {
   
   return (
-    <head>
+    <Helmet>
       <meta charset="utf-8" />
       <meta
         name="viewport"
@@ -25,7 +26,7 @@ const Header = () => {
       />
       <meta name="author" content="Peter Kim" />
       <link rel="icon" href={logo} type="image/icon type"/>
-    </head>
+    </Helmet>
   );
 };
 
