@@ -3,7 +3,7 @@ import ButtonCatalogo from "./ButtonCatalogo";
 const SubTitulo = () => {
   return (
     <div className="text-center">
-      <h2>Coleções</h2>
+      <h2 className="display-5">Coleções</h2>
       <ButtonCatalogo />
       </div>
   );
