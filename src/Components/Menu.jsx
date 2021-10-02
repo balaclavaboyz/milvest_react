@@ -16,16 +16,10 @@ const Menu = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link>
-              <Link to="/" style={{ color: 'inherit', textDecoration: 'inherit' }}>Home</Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link to="/faq" style={{ color: 'inherit', textDecoration: 'inherit' }}>FAQ</Link>
-            </Nav.Link>
+            <Nav.Link  as={Link} to="/">Home</Nav.Link>
+            <Nav.Link  as={Link} to="/faq">FAQ</Nav.Link>
             <Nav.Link href="https://milvest.vesti.mobi/">Catálogo</Nav.Link>
-            <Nav.Link>
-              <Link to="/politica" style={{ color: 'inherit', textDecoration: 'inherit' }}>Política de Privacidade</Link>
-            </Nav.Link>
+            <Nav.Link  as={Link} to="/politica">Política de Privacidade</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
