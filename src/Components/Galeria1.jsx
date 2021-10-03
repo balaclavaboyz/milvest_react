@@ -1,6 +1,5 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
-import Img from "react-cool-img";
+import { Carousel, Image } from "react-bootstrap";
 
 function importAll(r) {
   let images = {};
@@ -22,11 +21,10 @@ const Galeria = () => {
         Object.entries(galeria1).map((t, k) =>
           Object.entries(t[1]).map((t, k) => (
             <Carousel.Item key={k}>
-              <Img
+              <Image
                 className="d-block w-100"
                 src={t[1]}
                 alt="imagens_da_galeria_principal"
-                lazy="false"
               />
             </Carousel.Item>
           ))
