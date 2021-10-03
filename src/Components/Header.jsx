@@ -1,8 +1,6 @@
 import React from "react";
-import ReactGA from 'react-ga';
 import logo from '../assets/logo.svg'
 import {Helmet} from "react-helmet";
-ReactGA.initialize('UA-170028058-4');
 
 const Header = () => {
   

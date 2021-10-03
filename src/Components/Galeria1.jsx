@@ -26,6 +26,7 @@ const Galeria = () => {
                 className="d-block w-100"
                 src={t[1]}
                 alt="imagens_da_galeria_principal"
+                lazy="false"
               />
             </Carousel.Item>
           ))
