@@ -22,7 +22,7 @@ const Footer = () => {
           <a href="/politica">Política de Privacidade</a>
         <p>
           <i>Criamos , Produzimos e Vendemos em Atacado</i> | R. Aimorés, 101 -
-          Bom Retiro, São Paulo - SP, 01122-011 | milvest@milvest.com.br
+          Bom Retiro, São Paulo - SP, 01122-011 | milvestarquivo@gmail.com.br
         </p>
         <p>Desenvolvido por Peter Kim</p>
       </div>
