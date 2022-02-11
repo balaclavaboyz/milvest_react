@@ -1,5 +1,5 @@
 git add .
 git commit -m "atualizando images"
 git push
-npm run build
+npm run deploy
 pause
