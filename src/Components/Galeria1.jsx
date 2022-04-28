@@ -1,5 +1,8 @@
 import React from "react";
 import { Carousel, Image } from "react-bootstrap";
+import { IKImage, IKContext, IKUpload } from 'imagekitio-react';
+
+const urlendpoint="https://ik.imagekit.io/z32cydzahxp/"
 
 function importAll(r) {
   let images = {};
@@ -12,6 +15,7 @@ function importAll(r) {
 const galeria1 = importAll(
   require.context("../assets/galeria_1", false, /\.(png|jpe?g|svg|webp)$/)
 );
+
 
 const Galeria = () => {
   return (
