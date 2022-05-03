@@ -24,7 +24,7 @@ const Footer = () => {
           <i>Criamos , Produzimos e Vendemos em Atacado</i> | R. Aimorés, 101 -
           Bom Retiro, São Paulo - SP, 01122-011 | milvest@milvest.com.br
         </p>
-        <p>Desenvolvido por Peter Kim</p>
+        <p>Peter Kim 2022</p>
       </div>
       <a href="https://wa.me/5511942419476" style={botaoStyleWhatsapp}>
         <Img src={whats} alt="whatsapp contato" width="64" height="64"></Img>
